@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    font-family: arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 70px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.name{
+    position: relative;
+    bottom: -20px;
+    text-align: end;
+    font-size: 12px;
+}
+
+.logo{
+    position: relative;
+    background-image: url(images/profile\ photo.jpg );
+    border-radius: 2rem;
+    background-size: contain;
+    height: 40px;
+    width: 30%;
+}
+.border{
+    border-right: 4px solid transparent;
+}
+
+.border1{
+    border-left: 15px;
+    border-right: 400px solid transparent;
+}
+
+/* .border1:hover{
+    border: 2px solid white;
+} */
+
+.border:hover{
+    border: 2px solid white;
+}
+
+/** box2 **/
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    text-align: center;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    margin-left: 15px;
+display: flex;
+align-items: center;
+}
+
+.icon2{
+    margin-left: 15px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.num{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.profile{
+    display: flex;
+}
+
+.photo{
+    position: relative;
+    border-radius: 60rem;
+    margin-right: 30px;
+}
+
+.intro{position: relative;
+    font-size: 30px;
+    font-family: monospace;
+    text-align: justify;
+    margin-right: 30px;
+}
+
+.intro1{
+    margin-left: 20px;
+}
+.skills{
+    text-align: center;
+    font-size: 28px;
+}
+
+.sub{
+    text-decoration: underline;
+}
